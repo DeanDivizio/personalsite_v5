@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Site Round 5
 
-## Getting Started
+I don't think I really needed to update my site. V4 was pretty solid as-is. Sometimes I just can't help myself.
 
-First, run the development server:
+## Goals
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+While I liked V4, I definitely felt like I had room to improve. 
+- Responsiveness needed work. 
+- My layouts were fine but not particularly refined. 
+- I feel like my reliance on media and particle sims for the main aesthetic components made the site a little slower. 
+- The content and overall presentation could be streamlined quite a bit in some ways and expanded on in others. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Additionally, I really wanted an excuse to try using a shader for a background.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Process
+### The stack
+This project is based around Next.js. I'm using Tailwind for most of my CSS, shadcn components where needed, and WordPress for blog content management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### The Design
+I decided I wanted to go for a modern, flowy, XMB inspired design. I started by using [this shader](https://www.shadertoy.com/view/7slcWj) as a background component, modifying it slightly to blur the lines out a bit more and change the color in the corner to something within my palette. I then put that behind some blur and a gradient to both improve the readability of the text that sits on top, and give it more directionality overall.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+...idk if I need to be this detailed
