@@ -1,4 +1,4 @@
-import Footer from "../../components/footer"
+import Footer from "../../components/Footer"
 import ImageCarousel from "../../components/ImageCarousel"
 import VideoReel from "../../components/VideoReel"
 

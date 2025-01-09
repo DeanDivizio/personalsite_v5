@@ -1,5 +1,5 @@
 import ReferenceLetterCard from "../../components/ReferenceLetterCard"
-import Footer from "../../components/footer"
+import Footer from "../../components/Footer"
 
 export default function ReferencesLanding() {
 

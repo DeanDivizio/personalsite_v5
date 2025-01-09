@@ -1,7 +1,7 @@
 import SoftwareCarousel from "../../components/SoftwareCarousel";
 import { Card, CardDescription, CardHeader, CardTitle } from "../../components/ui/card";
 import Link from "next/link";
-import Footer from "../../components/footer"
+import Footer from "../../components/Footer"
 
 export default function SoftwarePage() {
 

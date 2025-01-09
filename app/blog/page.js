@@ -1,5 +1,5 @@
 import { fetchAPI } from '../../actions/wordpress'
-import Footer from '../../components/footer';
+import Footer from '../../components/Footer';
 import { TransLink } from '../../lib/translink';
 
 export default async function BlogLandingPage() {
@@ -41,4 +41,4 @@ export default async function BlogLandingPage() {
     )
 }
 
-export const revalidate = 60 * 60 //revalidate every hour
+export const revalidate = 3600 //revalidate every hour
