@@ -8,7 +8,7 @@ export default function SoftwarePage() {
     return (
         <main>
             <div className="pageBodyContainer w-full min-h-full flex flex-col-reverse xl:flex-row justify-center xl:justify-between items-center px-8 xl:px-32 pt-24 pb-12 md:pb-0">
-                <div className="w-full xl:pt-36 scrollContainer">
+                <div className="w-full xl:pt-28 3xl:pt-36 scrollContainer">
                     <div className="max-w-full xl:max-w-[66%] contentFade h-[75vh] overflow-y-scroll scrollContent">
                         <h2 className="text-2xl 2xl:text-4xl mb-4 font-medium">{`Building Things & Solving Problems`}</h2>
                         <p className="text-sm 2xl:text-lg mb-8 font-extralight tracking-wider">{" I've been enamored with technology since my grandpa gave me his old (beige) Windows 98 machine when I was 5. While I've dabbled in programing for most of my life, I really started taking it seriously when I realized just how"} <span className="italic">awesome</span> {"it is to solve real-world problems with software."}</p>

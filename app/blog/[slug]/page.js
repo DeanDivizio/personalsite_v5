@@ -66,4 +66,4 @@ export default async function BlogPost(props) {
   )
 }
 
-export const revalidate = 60 * 60 * 24 * 30 //revalidate once a month
+export const revalidate = 1058400 //revalidate once a month
