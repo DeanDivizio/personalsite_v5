@@ -3,7 +3,7 @@ export default function SueReference() {
         <main className="pageBodyContainer">
             <div id="bio" className="contentFade w-screen flex flex-row justify-center items-start bg-black bg-opacity-65">
                 <div className="h-full backdrop-blur-sm flex flex-col">
-                    <div className="py-64 px-8 text-center flex flex-col justify-center h-[90vh]">
+                    <div className="py-64 px-8 text-center flex flex-col justify-center h-[80vh] lg:h-[90vh]">
                         <h1 className="text-6xl sm:text-8xl mb-6 font-semibold w-full"><span className="text-transparent bg-clip-text titleFade text-center">{`Sue Wolters`}</span></h1>
                         <h4 className="text-xl sm:text-2xl font-extralight mb-16 text-white contentFade">{`Supervising Manager at Einstein's Bagels`}</h4>
                     </div>

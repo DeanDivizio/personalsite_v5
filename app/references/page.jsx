@@ -35,7 +35,6 @@ export default function ReferencesLanding() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </main>
     )
 }

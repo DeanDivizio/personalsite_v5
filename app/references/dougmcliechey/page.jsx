@@ -4,7 +4,7 @@ export default function DougReference() {
         <main className="pageBodyContainer">
             <div id="bio" className="contentFade w-screen flex flex-row justify-center items-start bg-black bg-opacity-65" >
                 <div className="h-full backdrop-blur-sm flex flex-col">
-                    <div className="py-64 px-8 text-center flex flex-col justify-center h-[90vh]">
+                    <div className="py-64 px-8 text-center flex flex-col justify-center h-[80vh] lg:h-[90vh]">
                         <h1 className="text-6xl sm:text-8xl mb-6 font-semibold w-full py-2"><span className="text-transparent bg-clip-text titleFade text-center">{`Doug McLiechey`}</span></h1>
                         <h4 className="text-xl sm:text-2xl font-extralight mb-16 text-white contentFade">{`Chief Technology Officer of Creative Path Solutions`}</h4>
                     </div>

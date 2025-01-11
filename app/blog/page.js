@@ -36,7 +36,6 @@ export default async function BlogLandingPage() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </main>
     )
 }

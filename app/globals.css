@@ -109,7 +109,6 @@ body {
 
 .mid {
   top: 50%;
-  backdrop-filter: blur(0px);
 }
 .top {
   top: 0;
@@ -124,6 +123,12 @@ body {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+@keyframes fadeInDim{
+  0% { opacity: 0; }
+  100% { opacity: 0.65; }
+}
+
 @keyframes fadeInOut{
   0% { opacity: 1; }
   20% { opacity: 0; }
@@ -184,4 +189,83 @@ body {
         black 95%, 
         rgba(0, 0, 0, 0.35) 100%);
     pointer-events: none;
+}
+
+
+@keyframes fadeUpZoom {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animated-text {
+  opacity: 0;
+  will-change: transform, opacity;
+  animation: fadeUpZoom 1.5s ease-out forwards;
+}
+
+.animated-text:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.animated-text:nth-child(2) {
+  animation-delay: 0.7s;
+}
+
+.animated-text:nth-child(3) {
+  animation-delay: 1s;
+}
+
+@supports (animation-timeline: scroll()) {
+  .animated-text {
+    animation-timeline: scroll();
+    animation-range: entry 20% cover 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .animated-text {
+    animation-duration: 1s;
+  }
+  .mid {
+    top: 47%
+  }
+}
+
+@keyframes fadeUpZoomNav {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.nav-button {
+  opacity: 0;
+}
+
+.nav-button.animate {
+  animation: fadeUpZoomNav 1s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .nav-button.animate {
+    animation-duration: 1s;
+  }
+}
+
+#nav {
+  transition: opacity 500ms ease-in-out, top 1500ms ease-in-out;
+}
+
+footer {
+  animation:  1s ease-in-out 0s forwards fadeInDim;
 }
