@@ -227,13 +227,6 @@ body {
   animation-delay: 1s;
 }
 
-@supports (animation-timeline: scroll()) {
-  .animated-text {
-    animation-timeline: scroll();
-    animation-range: entry 20% cover 30%;
-  }
-}
-
 @media (max-width: 768px) {
   .animated-text {
     animation-duration: 1s;
