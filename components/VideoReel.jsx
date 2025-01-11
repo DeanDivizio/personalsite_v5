@@ -13,7 +13,7 @@ export default function VideoReel() {
     },[])
 
     return (
-        <div className="col-span-2">
+        <div className="col-span-2 order-2 lg:order-1">
       { loading ? 
         <Skeleton className="col-span-2 order-2 lg:order-1 w-full h-[22vh] md:h-[30vh] lg:h-[55vh] 2xl:h-[40vh] 3xl:h-[45vh] 4xl:h-[50vh] 5xl:h-[65vh] rounded-xl contentFade animate-pulse" /> :
         <iframe className="col-span-2 order-2 lg:order-1 w-full h-[22vh] md:h-[30vh] lg:h-[55vh] 2xl:h-[40vh] 3xl:h:[45vh] 4xl:h-[50vh] 5xl:h-[65vh] rounded-xl"

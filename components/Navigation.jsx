@@ -5,7 +5,7 @@ import { TransLink } from "../lib/translink";
 import { usePathname } from "next/navigation";
 import { useTransition } from "../contexts/TransitionContext";
 
-const buttonClass = "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-9 px-4 py-2 text-neutral-100 hover:bg-blue-950 nav-button";
+const buttonClass = "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-neutral-100 lg:hover:text-accent-foreground h-9 px-4 py-2 text-neutral-100 hover:bg-transparent lg:hover:bg-blue-950 nav-button";
 
 export default function Navigation() {
   const path = usePathname();
