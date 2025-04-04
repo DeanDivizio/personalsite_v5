@@ -9,7 +9,7 @@ export default function VideoReel() {
     useEffect(()=>{
         setTimeout(()=>{
             setLoading(false)
-        }, 3500)
+        }, 300)
     },[])
 
     return (
