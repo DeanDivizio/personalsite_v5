@@ -14,7 +14,7 @@ export default function ReferencesLanding() {
                         <ReferenceLetterCard
                             name="Alex Melelli"
                             initials="AM"
-                            image={"https://api.deandivizio.com/wp-content/uploads/2024/11/AlexMelelli_Avatar.jpg"}
+                            image={"http://newapi.deandivizio.com/wp-content/uploads/2025/04/AlexMelelli_Avatar.jpg"}
                             link={"/references/alexmelelli"}
                             subtitle="Co-Founder of OVRTONE Media Group"
                             isAlex
@@ -22,7 +22,7 @@ export default function ReferencesLanding() {
                         <ReferenceLetterCard
                             name="Doug McLiechey"
                             initials="DM"
-                            image={"https://api.deandivizio.com/wp-content/uploads/2024/11/DougMcLiechey_Avatar.jpg"}
+                            image={"http://newapi.deandivizio.com/wp-content/uploads/2025/04/DougMcLiechey_Avatar.jpg"}
                             link={"/references/dougmcliechey"}
                             subtitle="CTO of Creative Path Solutions"
                         />

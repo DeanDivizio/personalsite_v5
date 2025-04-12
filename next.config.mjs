@@ -7,7 +7,7 @@ const nextConfig = {
         remotePatterns: [
           {
             protocol: 'https',
-            hostname: 'api.deandivizio.com',
+            hostname: 'newapi.deandivizio.com',
           },
         ],
       },
