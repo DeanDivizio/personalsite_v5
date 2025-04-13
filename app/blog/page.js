@@ -24,7 +24,7 @@ export default async function BlogLandingPage() {
                     <div className="pt-32 md:pt-48 pb-12 md:pb-24 px-8 text-center flex flex-col justify-center">
                       <h1 className="text-6xl mb-12 2xl:mb-0 text-center font-medium"><span className="text-transparent titleFade bg-clip-text">Blog</span></h1>
                     </div>
-                    <div className="contentFade w-full flex flex-wrap justify-center gap-8 md:gap-12 px-4">
+                    <div className="contentFade w-full grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 px-4">
                         {data?.posts?.edges?.map(({ node }) => (
                             <TransLink href={`/blog/${node.slug}`} key={node.slug}>
                                 <article className="p-8 max-w-xl hover:scale-[102%] transition-all duration-300 bg-gradient-to-br from-neutral-800 to-neutral-950 border-black rounded-lg shadow-lg">
