@@ -40,4 +40,4 @@ export default async function BlogLandingPage() {
     )
 }
 
-export const revalidate = 3600 //revalidate every hour
+export const revalidate = 600 //revalidate every ten minutes
