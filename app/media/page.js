@@ -15,7 +15,7 @@ export default function MediaPage() {
                 <div className="w-full pt-16 flex flex-col contentFade">
                     <h2 className="text-3xl 2xl:text-4xl mb-4 font-medium">{`Where I Started`}</h2>
                     <p className="lg:text-lg mb-2 xl:mb-2 2xl:mb-2 font-light tracking-wider">{"I've always loved the creative arts. Music, photography, and video production gave me my first experiences of marrying my creative/maker side with my passion for technology."}</p>
-                    <p className="lg:text-lg mb-8 xl:mb-12 font-light tracking-wider">{"Even though software engineering is my main thing right now, I still do my best to make time for media production - whether on my own time or through my company, "}<a className="underline text-green-500 hover:text-blue-500 transition-colors duration-300" href="https://www.ovrtonemedia.com">OVRTONE</a>.</p>
+                    {/* <p className="lg:text-lg mb-8 xl:mb-12 font-light tracking-wider">{"Even though software engineering is my main thing right now, I still do my best to make time for media production - whether on my own time or through my company, "}<a className="underline text-green-500 hover:text-blue-500 transition-colors duration-300" href="https://www.ovrtonemedia.com">OVRTONE</a>.</p> */}
                 </div>
                 <ImageCarousel />
             </div>
