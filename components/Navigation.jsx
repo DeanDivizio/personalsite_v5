@@ -47,11 +47,11 @@ export default function Navigation() {
     >
       {isLoaded && (
         <>
-          <TransLink setNavLocation={setNavLocation} href="/software">
+          {/* <TransLink setNavLocation={setNavLocation} href="/software">
             <Button id="navSoftwareButton" variant="ghost" className={buttonClass}>
               Software
             </Button>
-          </TransLink>
+          </TransLink> */}
           <TransLink setNavLocation={setNavLocation} href="/media">
             <Button id="navMediaButton" variant="ghost" className={buttonClass}>
               Media
@@ -62,11 +62,11 @@ export default function Navigation() {
               Blog
             </Button>
           </TransLink>
-          <TransLink setNavLocation={setNavLocation} href="/references">
+          {/* <TransLink setNavLocation={setNavLocation} href="/references">
             <Button id="navReferencesButton" variant="ghost" className={buttonClass}>
               References
             </Button>
-          </TransLink>
+          </TransLink> */}
         </>
       )}
     </div>
