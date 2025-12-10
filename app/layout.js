@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} antialiased`}> 
         <TransitionProvider>
-        <Navigation />
+        {/* <Navigation /> */}
         <main className="w-[100vw] min-h-[98vh]">
           {children}
         </main>
